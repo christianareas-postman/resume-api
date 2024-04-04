@@ -1,8 +1,8 @@
-openapi: 3.1.0
+openapi: 3.0.3
 
 info:
   title: Resume API
-  summary: An amazing API for your resume.
+  # summary: An amazing API for your resume. # Not compatible with OpenAPI 3.0.3.
   description: |
     The Resume API (pronounced _rez-uhm-ay-pee-eye_) is your resume’s source of truth. Use it to store, update, and retrieve your resume for a variety of use cases. For example, use it to display your resume on your website or make it available as a PDF — all from an always-up-to-date, single source.
   contact:
@@ -10,8 +10,8 @@ info:
     email: me@areas.me
   license:
     name: GNU General Public License v3.0
-    identifier: GPL-3.0
-  version: 0.1.1
+    # identifier: GPL-3.0 # Not compatible with OpenAPI 3.0.3.
+  version: 0.2.0
 
 servers:
   - url: 'http://localhost:3000/api/v0'
